@@ -12,7 +12,7 @@ const initialState = {
         birthDate:null,
         gemder: 1,
         userHMO: 0,
-        childrenOfUser: []
+        childrenOfUser: [{tz:"",name:"",birthDate:null}]
 
     }
 }
@@ -80,7 +80,7 @@ const reducer = produce((state, action) => {
                 birthDate: null,
                 gemder: 0,
                 userHMO: 0,
-                childrenOfUser: []
+                childrenOfUser: [{tz:"",name:"",birthDate:null}]
 
             }
             break;
